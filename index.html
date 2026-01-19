@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="index.js" defer></script>
+        <title>Attendance Taker</title>
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="toggleBtn">Add section</button>
+        <div id="content" class="hidden">
+            <button id = "prev">Previous date</button>
+            <button id = "next">Next date</button><br>
+            <div id="date"></div><br>
+            <form id="myForm">
+                <input type="text" name="firstName" placeholder="First name">
+                <input type="text" name="lastName" placeholder="Last name">
+                <button type="submit">Save</button>
+            </form>
+            Present, First name, Last name
+        </div>
+        <div id="output"></div>
+    </body>
+</html>
